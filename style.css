@@ -1,0 +1,42 @@
+  
+  .wide {
+    
+    background-image:url('./assets/amazon.png');
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .wide img {
+    width:100%;
+
+  }
+  
+  .image-container{
+    text-align:center;
+    position: relative;
+
+    
+  }
+
+  .time-display{
+    display: block;
+    
+  }
+  .text{
+    color: white;
+    top: 5px;
+    position: absolute;
+    top: 43%;
+    left: 53.5%; 
+    transform: translate(-50%, -50%);
+  }
+
+  .heartRate-display{
+  display: none;
+  font-size: 100px;
+	color: #e00;
+	animation: beat .25s infinite alternate;
+	transform-origin: center;
+
+  }
